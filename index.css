@@ -1,0 +1,246 @@
+
+.navbar {
+    background-color:white;
+}
+
+.navbar img {
+    border-radius: 15px;
+}
+
+.form-inline {
+    padding-left: 400px;
+}
+
+.navbar button {
+    padding-left: 20px;
+}
+
+.jew ul li {
+    display: inline-flex;
+    color: black;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ear h6 {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+}
+
+.ear img:hover {
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+.enc {
+    margin-left: 210px;
+}
+
+.enc img:hover {
+    transition: 0s;
+    transform: scale(1.1);
+}
+
+.jos img:hover {
+    transition: 0s;
+    transform: scale(1.1);
+}
+
+.ve h3 {
+    padding-left: 165px;
+    margin-top: 90px;
+    color: seagreen;
+}
+
+.ve a img {
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.ve img {
+    margin-top: 20px;
+}
+
+hr {
+    border: 0.1px solid gray;
+}
+
+.last {
+    font-size: 15px;
+}
+
+.last ul li {
+    display: block;
+    
+}
+.lass img{
+    margin-left: 750px;
+
+}
+.las img:hover{
+    transition: 1s;
+    z-index: 2;
+    transform: translateY(-15px)
+}
+
+.jew{
+    font-size: small;
+}
+.quate{
+ 
+   text-align: center;
+ 
+    
+}
+.ho a{
+        font-size: 10px; 
+
+}
+.ho{
+    background-color: cadetblue;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.get a{ 
+    font-size: 25px;
+    color:darkslategrey;
+    text-decoration: none;
+}
+.cards img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+
+}
+.das{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.star{
+    color: red;
+}
+.bbtn {
+    margin-left: 600px;
+}
+
+
+/* card trans */
+
+.trans1   {
+    display: flex;
+    border-radius: 30px;
+
+}
+.card img{
+    height: 450px;
+    width: 300px;
+ 
+    
+}
+.card{
+    height: 400px;
+    margin: 10px;
+    box-shadow: 15px 10px 15px 5px black ;
+    overflow: hidden;
+}
+.intro{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(12, 12, 12,0.5);
+    color: black;
+    bottom: 1px;
+    transition: .5s;
+}
+.hh{
+margin: 10px;
+font-size: 40px;
+}
+.loo{
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0.5;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height:200px ;
+    bottom: 0px ;
+    background:lightgrey;
+}
+.card:hover .loo{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+transform: scale(1.1) rotate(-3deg);
+}
+
+
+/* slide */
+
+.slide-container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(256,45,118,0.5),rgb(25,5,43));
+}
+.image-slider{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+.slides-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+.slii img{
+position: relative;
+width: 240px;
+height: 370px;
+transition: .5s;
+filter: saturate(10%);
+}
+.button{
+    position: absolute;
+    width: 340px;
+    height: 270px;
+    transition: .5s;
+    background-color: rgba(0,0,0, .4);
+}
+.button:hover{
+    background-color: rgb(0,0,0, .2);
+}
+#slider-span1:target ~ .image-slider #img1 ,
+#slider-span1:target ~ .image-slider #button-1{
+    height: 380px;
+    width: 580px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider-span1:target ~ .image-slider #img1{left: 70%;}
+#slider-span3:target ~ .image-slider #img3{left: -25%;}
+
+.gg a li{
+    color: red;
+}
+.mes{
+    background-color:aquamarine;
+}
